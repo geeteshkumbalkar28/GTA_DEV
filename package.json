@@ -5,7 +5,7 @@
   "author": "Themefisher",
   "license": "MIT",
   "scripts": {
-    "dev": "gulp",
+    "start": "gulp",
     "build": "gulp build"
   },
   "dependencies": {
