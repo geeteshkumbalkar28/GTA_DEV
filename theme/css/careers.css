@@ -1,0 +1,39 @@
+
+.contai {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.job-listing {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.job-title {
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+.job-details {
+    margin: 10px 0;
+
+    p {
+        margin: 5px 0;
+    }
+}
+
+.location, .experience, .qualification {
+    font-weight: bold;
+}
