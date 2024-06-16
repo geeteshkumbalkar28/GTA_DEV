@@ -175,3 +175,9 @@ gulp.task(
     "plugins:build"
   )
 );
+
+gulp.task('build', () => {
+  // Your build tasks here
+  return gulp.src('src/**/*')
+   .pipe(gulp.dest('public')); // Update the output directory to 'public'
+});
