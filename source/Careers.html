@@ -43,7 +43,65 @@
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+<style>
 
+
+.container-2 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.job-listing {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center; 
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.job-title {
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+.job-details {
+    margin: 10px 0;
+    text-align: left;
+    p {
+        margin: 5px 0;
+    }
+}
+
+.location, .experience, .qualification {
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &.btn-main {
+        margin: 10px 0; 
+    }
+}
+
+</style>
 </head>
 <body id="body">
 
@@ -95,7 +153,7 @@ Fixed Navigation
             <a class="nav-link" href="service.html">Services</a>
           </li>
 		  <li class="nav-item ">
-            <a class="nav-link" href="Careers.html">Careers</a>
+            <a class="nav-link" href="careers.htm">Careers</a>
           </li>
 		  <!-- <li class="nav-item ">
             <a class="nav-link" href="Blog.html">Blogs</a>
@@ -112,169 +170,131 @@ Fixed Navigation
 <!--
 End Fixed Navigation
 ==================================== -->
-
 <section class="single-page-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Easy Pricing</h2>
+				<h2>Careers</h2>
 				<ol class="breadcrumb header-bradcrumb justify-content-center">
 					<li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Easy Pricing</li>
+					<li class="breadcrumb-item active" aria-current="page">Careers</li>
 				</ol>
 			</div>
 		</div>
 	</div>
 </section>
+<div class="container-2">
+    <h1>Job Listings</h1>
 
-<!--
-Start About Section
-==================================== -->
-<section class="about-2 section" id="about">
-	<div class="container">
-		<div class="row justify-content-center">
-			<!-- section title -->
-			<div class="col-lg-6">
-				<div class="title text-center">
-					<h2>Software Development</h2>
-					<p>Elevate Your Vision: Expert Software Development Services for Your Success.</p>
-					<div class="border"></div>
-				</div>
-			</div>
-			<!-- /section title -->
-		</div>
+    <div class="job-listing">
+        <div class="job-title">Full Stack Lead</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Java8 or above including lambda expressions and streams, Spring, SQL, NoSQL, Design, implement and administer the database system, DSA, React, Node.js, typescript good to have</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> Any Bachelor's Degree or Above</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 3 To 8</p>
+            <p class="location"><strong>Location:</strong> Pune, MH</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
+    </div>
 
-		<div class="row">
+    <div class="job-listing">
+        <div class="job-title">Sr. Mobile App Developer</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Flutter, React Native, IOS & Android</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> Any Graduate Or Above</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 6 To 8</p>
+            <p class="location"><strong>Location:</strong> Pune</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
 
-			<div class="col-md-6 mb-4 mb-md-0">
-				<img loading="lazy" src="images/about/about-2.png" class="img-fluid" alt="">
-			</div>
-			<div class="col-md-6">
-				<ul class="checklist">
-					<li><strong>Web Applications</strong>: Transform your online presence with our custom-built web applications, designed to deliver engaging user experiences and drive business growth.</li>
-					 <li><strong>Mobile Apps</strong>: Unlock the power of mobile with our expertly crafted iOS and Android apps, engineered to captivate users and drive results.</li>
-					  <li><strong>Custom Software</strong>: Streamline your operations and amplify productivity with our bespoke software solutions, tailored to meet the unique needs of your business.</li>
-					   <li><strong>E-commerce Solutions</strong>: Revolutionize your online store with our secure, user-centric e-commerce platforms, designed to boost conversions and fuel revenue growth.</li> 
-					<li><strong>Cloud Computing</strong>: Harness the limitless potential of the cloud with our expert cloud computing services, ensuring scalable, flexible, and secure data management.</li>
-				</ul>
-				<a href="about.html" class="btn btn-main mt-20">Learn More</a>
-			</div>
-		</div> <!-- End row -->
-	</div> <!-- End container -->
-</section> <!-- End section -->
-<!-- Start Pricing section
-		=========================================== -->
-<section class="pricing-table" id="pricing">
-	<div class="container">
-		<div class="row justify-content-center">
-			<!-- section title -->
-			<div class="col-xl-6 col-lg-8">
-				<div class="title title-white text-center ">
-					<h2>Our Greatest Plans</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium soluta deserunt eaque, est, quia hic odit sed incidunt officiis quidem.</p>
-					<div class="border"></div>
-				</div>
-			</div>
-			<!-- /section title -->
-		</div>
-		<div class="row">
-			<!-- single pricing table -->
-			<div class="col-lg-4 col-md-6">
-				<div class="pricing-item">
+    </div>
 
-					<!-- plan name & value -->
-					<div class="price-title">
-						<h3>Basic</h3>
-						<strong class="value">$19</strong>
-						<p>Perfect for single freelancers who work by themselves</p>
-					</div>
-					<!-- /plan name & value -->
+    <div class="job-listing">
+        <div class="job-title">Sr. Data Engineer</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Spark, Apache, Big Data, Data engineering, Pyspark, SQL, python, R or scala, AWS/Azure/GCP, AI&ML, Data Lakes</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> Any graduation or above</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 3 To 8</p>
+            <p class="location"><strong>Location:</strong> Pune</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
 
-					<!-- plan description -->
-					<ul>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 1GB Disk Space</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 10 Email Account</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Script Installer</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 1 GB Storage</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 2 GB Bandwidth</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
+    </div>
 
-					<!-- signup button -->
-					<a class="btn btn-main" href="contact.html">Signup</a>
-					<!-- /signup button -->
+    <div class="job-listing">
+        <div class="job-title">Sr. Java Microservices Developer</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Lucene, solar, akka, cassandra, kafka, elastic search, ML, Junit, Scala, Unix/Linux, TDD</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> Any graduate or above</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 3 To 8</p>
+            <p class="location"><strong>Location:</strong> Pune</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
 
-				</div>
-			</div>
-			<!-- end single pricing table -->
+    </div>
 
-			<!-- single pricing table -->
-			<div class="col-lg-4 col-md-6  ">
-				<div class="pricing-item">
+    <div class="job-listing">
+        <div class="job-title">HR Admin Intern</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Communication, Organization, Attention to Detail, Time Management, Problem-solving, Interpersonal, Adaptability, Teamwork, Confidentiality, Multitasking</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> BBA/BMS, Bcom or any related field</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 0 To 1</p>
+            <p class="location"><strong>Location:</strong> Pune</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
 
-					<!-- plan name & value -->
-					<div class="price-title">
-						<h3>Standard</h3>
-						<strong class="value">$39</strong>
-						<p>Suitable for small businesses with up to 5 employees</p>
-					</div>
-					<!-- /plan name & value -->
+    </div>
 
-					<!-- plan description -->
-					<ul>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 1GB Disk Space</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 50 Email Account</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Script Installer</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 1 GB Storage</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 10 GB Bandwidth</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
+    <div class="job-listing">
+        <div class="job-title">Java Developer trainee</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Knowledge or experience on the Java8 or above including lambda expressions and streams, Spring, SQL, NoSQL, Design, implement and administer the database system, DSA, React, Node.js, typescript</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> Any Graduate or Above</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 0 To 1</p>
+            <p class="location"><strong>Location:</strong> Pune</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
 
-					<!-- signup button -->
-					<a class="btn btn-main" href="contact.html">Signup</a>
-					<!-- /signup button -->
+    </div>
 
-				</div>
-			</div>
-			<!-- end single pricing table -->
+    <div class="job-listing">
+        <div class="job-title">Full Stack Developer Intern</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Java, DSA, Angular, React, VueJs, SQL, PLSQL, NoSQL, NodeJS, Typescript, Python, Shell</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> Any Graduate</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 0 To 1</p>
+            <p class="location"><strong>Location:</strong> Pune</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
 
-			<!-- single pricing table -->
-			<div class="col-lg-4 col-md-6 ">
-				<div class="pricing-item">
+    </div>
 
-					<!-- plan name & value -->
-					<div class="price-title">
-						<h3>Enterprise</h3>
-						<strong class="value">$59</strong>
-						<p>Great for large businesses with more than 5 employees</p>
-					</div>
-					<!-- /plan name & value -->
+    <div class="job-listing">
+        <div class="job-title">Jr. Java Developer</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Java, Python, Aws, Devops</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> Any Graduate</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 0 To 1</p>
+            <p class="location"><strong>Location:</strong> Pune</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
 
-					<!-- plan description -->
-					<ul>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Unlimited Disk Space</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Unlimited Email Account</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Script Installer</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Unlimited Storage</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> Unlimited Bandwidth</li>
-						<li><i class="tf-ion-ios-arrow-forward"></i> 24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
+    </div>
 
-					<!-- signup button -->
-					<a class="btn btn-main" href="contact.html">Signup</a>
-					<!-- /signup button -->
+    <div class="job-listing">
+        <div class="job-title">QA Engineer</div>
+        <div class="job-details">
+            <p><strong>Skills Required:</strong> Java, Python, Selenium, API test automation, Mobile testing automation, Appium, JMeter, AWS Cloud, Postman / Rest Assured / Rest Easy etc</p>
+            <p class="qualification"><strong>Education/Qualification:</strong> Any Graduate</p>
+            <p class="experience"><strong>Years Of Exp:</strong> 1 To 4</p>
+            <p class="location"><strong>Location:</strong> Pune MH</p>
+        </div>
+        <a a href="mailto:hr1@gtasterix.com" class="btn btn-main">Apply now</a>
 
-				</div>
-			</div>
-			<!-- end single pricing table -->
+    </div>
 
+</div>
 
-		</div> <!-- End row -->
-	</div> <!-- End container -->
-</section> <!-- End section -->
 
 <footer id="footer" class="bg-one">
   <div class="top-footer">
